@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { fetchMovies } from "../../services/movieService";
-
 import { Movie } from "../../types/movie";
-
+import toast from "react-hot-toast";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import Loader from "../Loader/Loader";
 import MovieGrid from "../MovieGrid/MovieGrid";

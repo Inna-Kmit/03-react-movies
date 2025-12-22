@@ -5,7 +5,6 @@ import { Movie } from "../../types/movie";
 
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import Loader from "../Loader/Loader";
-import toast, { Toaster } from "react-hot-toast";
 import MovieGrid from "../MovieGrid/MovieGrid";
 import SearchBar from "../SearchBar/SearchBar";
 import MovieModal from "../MovieModal/MovieModal";

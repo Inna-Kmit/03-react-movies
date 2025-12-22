@@ -9,7 +9,7 @@ The project is built with **Vite + React + TypeScript**, uses **Axios** for HTTP
 ## 🚀 Live Demo
 
 👉 Deployed on **Vercel**  
-_()_
+_(03-react-movies-peach-ten.vercel.app)_
 
 ---
 

@@ -3,12 +3,12 @@ import { fetchMovies } from "../../services/movieService";
 
 import { Movie } from "../../types/movie";
 
-import ErrorMessage from "../errorMessage/ErrorMessage";
-import Loader from "../loader/Loader";
+import ErrorMessage from "../ErrorMessage/ErrorMessage";
+import Loader from "../Loader/Loader";
 import toast, { Toaster } from "react-hot-toast";
-import MovieGrid from "../movieGrid/MovieGrid";
-import SearchBar from "../searchBar/SearchBar";
-import MovieModal from "../movieModal/MovieModal";
+import MovieGrid from "../MovieGrid/MovieGrid";
+import SearchBar from "../SearchBar/SearchBar";
+import MovieModal from "../MovieModal/MovieModal";
 import css from "./App.module.css";
 
 export default function App() {

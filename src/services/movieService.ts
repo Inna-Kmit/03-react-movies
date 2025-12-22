@@ -9,7 +9,7 @@ interface MovieHttpResponse {
 }
 const BASE_URL = "https://api.themoviedb.org/3";
 export const fetchMovies = async (query: string): Promise<Movie[]> => {
-  const MY_KEY = import.meta.env.VITE_TMDB_TOKEN as string | undefined;
+  const MY_KEY = import.meta.env.VITE_TMDB_TOKEN;
   const response = await axios.get<MovieHttpResponse>(
     `${BASE_URL}/search/movie`,
     {

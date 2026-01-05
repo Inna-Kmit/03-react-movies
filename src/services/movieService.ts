@@ -2,7 +2,6 @@ import axios from "axios";
 import { Movie } from "../types/movie";
 
 interface MovieHttpResponse {
-  readonly VITE_TMDB_TOKEN: string;
   page: number;
   results: Movie[];
   total_pages: number;
